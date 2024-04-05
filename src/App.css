@@ -1,0 +1,74 @@
+/* NavBar.module.css */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icn {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logoName {
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.ul1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.lia, .lib, .lic, .lid {
+  margin-right: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.menuText {
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logoName {
+    font-size: 18px;
+  }
+
+  .menu {
+    margin-top: 10px;
+  }
+
+  .ul1 {
+    flex-direction: column;
+  }
+
+  .lia, .lib, .lic, .lid {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
